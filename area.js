@@ -1,7 +1,8 @@
 const prompt = require('prompt-sync')();
-const base = prompt('Enter the base of a triangle: ');
-const height = prompt('Enter the height of a triangle: ');
+const base = prompt('Enter the base : ');
+const height = prompt('Enter the height: ');
+const areaTriangle = (base * height) / 2;
+const areaRectangle = base * height;
 
-const area = (base * height) / 2;
-
-console.log("The area of the triangle is: ",area);
+console.log("The area of the triangle is: ",areaTriangle);
+console.log("The area of the rectangle is: ",areaRectangle);
